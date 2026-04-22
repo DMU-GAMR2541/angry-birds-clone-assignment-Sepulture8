@@ -1,0 +1,3 @@
+H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/CMakeFiles/ALL_BUILD.dir
+H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/CMakeFiles/ZERO_CHECK.dir

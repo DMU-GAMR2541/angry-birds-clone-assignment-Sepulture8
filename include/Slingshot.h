@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 
+
 /// <summary>
 /// A simple class that you can use to begin the testing process using Googletest.
 /// </summary>
@@ -14,7 +15,8 @@ private:
     const int MAX_TENSION = 100;
 
 public:
-    Slingshot() : i_tension(0), str_birdType("Red") {}
+    Slingshot(int i_initial_tension, std::string s_BirdColour) : i_tension(i_initial_tension), str_birdType(s_BirdColour) {}
+
 
     //Functions to test.
     void loadBird(std::string str_type) { str_birdType = str_type; }

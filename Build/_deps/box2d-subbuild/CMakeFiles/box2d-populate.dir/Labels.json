@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/box2d-populate"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/83c971b2dd6c25edc4f24ca2790105c8/box2d-populate.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/1956ad48154074828c88dc099f210ace/box2d-populate-complete.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-build.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-configure.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-download.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-install.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-patch.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-test.rule"
+		},
+		{
+			"file" : "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/CMakeFiles/189dbafd82bcf32a84360d04d0dc2b21/box2d-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"box2d-populate"
+		],
+		"name" : "box2d-populate"
+	}
+}
