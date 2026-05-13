@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-mkdir.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-download.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-update.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-patch.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-configure.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-build.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-install.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\3a3c62b6054fef539c73b40c76ac3e30\sfml-populate-test.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ec4281fd8e19c6b14a569c4169dbabd7\sfml-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\2c60e26dccb22f164fe24cf057abf019\sfml-populate-complete.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\174da4d213a98d2fd019134c4a9f3046\sfml-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\d1776ffc655f65fcd6a824c8a3908c32\sfml-populate.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\ffea71b1f90e12df34213295291c115e\sfml-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
+    <None Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{BC117B54-2BC5-3B3E-8618-CD49A8686594}</UniqueIdentifier>
+      <UniqueIdentifier>{45E29C22-DA16-365A-B06C-C4325FAC1BAC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

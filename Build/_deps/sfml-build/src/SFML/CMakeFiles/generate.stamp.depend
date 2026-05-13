@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeParseArguments.cmake
-H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/cmake/CompilerWarnings.cmake
-H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/cmake/Macros.cmake
-H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/CMakeLists.txt
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeParseArguments.cmake
+D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/cmake/CompilerWarnings.cmake
+D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/cmake/Macros.cmake
+D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/CMakeLists.txt

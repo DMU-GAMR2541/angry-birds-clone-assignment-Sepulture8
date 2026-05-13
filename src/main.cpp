@@ -1,139 +1,299 @@
-#include <SFML/Graphics.hpp>
+﻿#include <SFML/Graphics.hpp>
 #include <box2d/box2d.h>
+#include <map>
+#include <vector>
+#include <list>
+#include <set>
 #include <iostream>
 
+#include "DynamicObject.h"
+#include "StaticObject.h"
+#include "Bird.h"
+#include "Plank.h"
+#include "Pig.h"
+#include "NonInteractable.h"
+#include "Catapault.h"
+#include "ContactListener.h"
+
 int main() {
+
     // --- 1. WINDOW SETUP ---
     sf::RenderWindow window(sf::VideoMode(800, 600), "Annoyed_Flocks");
     window.setFramerateLimit(60);
 
-    //Box2D works in meters. SFML works in pixels.
-    const float SCALE = 30.0f;
+    const sf::Vector2f CATAPULT_POS(150.0f, 520.0f);
+    const sf::Vector2f PLANK_POS(400.0f, 550.0f);
+    bool abilityActivated = false;
+    bool birdLaunched = false;
 
-    //Can set a definition for PI.
+    sf::Clock birdTimer;
+
+    const float SCALE = 30.0f;
     const float PI = 3.1415927;
 
-    //setup world.
-    b2Vec2 b2_gravity(0.0f, 9.8f); // Earth-like gravity
+    b2Vec2 b2_gravity(0.0f, 9.8f);
     b2World world(b2_gravity);
+    ContactListener contactlister;
+    world.SetContactListener(&contactlister);
 
-    //Setup ground for the circle to move / bounce on.
-    //Needs to have a body definition and a body. We use a raw pointer for the b2Body as Box2d does the management itself.
-    //A body can be defined as having a position, velocity, and mass. 
-    b2BodyDef b2_groundBodyDef;
-    b2_groundBodyDef.position.Set(400.0f / SCALE, 590.0f / SCALE);
-    b2Body* b2_groundBody = world.CreateBody(&b2_groundBodyDef);
+    Catapult catapult(world, 150.0f, 520.0f, 10.0f, 60.0f, "../assets/Ang_Birds/Slingshot.png");
+    Plank plank(world, 500.0f, 550.0f, 10.0f, 60.0f, "../assets/Ang_Birds/plank.jpg");
 
-    //Define a fixture shape that relates to the collision for the ground.
-    b2PolygonShape b2_groundBox;
-    b2_groundBox.SetAsBox(400.0f / SCALE, 10.0f / SCALE);
-    b2_groundBody->CreateFixture(&b2_groundBox, 0.0f);
+    std::vector<std::string> birdTextures = {
+        "../assets/Ang_Birds/BlueBird.png",
+        "../assets/Ang_Birds/MainBird.png",
+        "../assets/Ang_Birds/YellowBird.png",
+        "../assets/Ang_Birds/BlackBird.png"
+    };
 
-    //Set up the ground visualisation.
-    sf::RectangleShape sf_groundVisual(sf::Vector2f(800.0f, 20.0f));
-    sf_groundVisual.setOrigin(400.0f, 10.0f);
-    sf_groundVisual.setFillColor(sf::Color(34, 139, 34)); // Forest Green
+    std::vector<std::shared_ptr<Pig>> pigPtr;
+    std::vector<std::shared_ptr<NonInteractable>> Noninteractable;
+    std::list<std::shared_ptr<Bird>> birdPtr;
 
-    //Setting up a wall for the ball to hit.
-    b2BodyDef b2_wallDef;
-    b2_wallDef.position.Set(750.0f / SCALE, 500.0f / SCALE);
-    b2Body* b2_wallBody = world.CreateBody(&b2_wallDef);
+    DynamicObject::DynamicObjectType birdtype;
 
+    Noninteractable.push_back(std::make_shared<NonInteractable>(world, 750.0f, 500.0f, 10.0f, 80.0f, sf::Color::Red));
+    Noninteractable.push_back(std::make_shared<NonInteractable>(world, 400.0f, 590.0f, 400.0f, 10.0f, sf::Color(34, 139, 34)));
 
-    b2PolygonShape b2_wallBox;
-    b2_wallBox.SetAsBox(10.0f / SCALE, 80.0f / SCALE);
-    b2_wallBody->CreateFixture(&b2_wallBox, 0.0f);
+    for (int i = 0; i < 4; i++) {
+        if (i == 0) { birdtype = DynamicObject::DynamicObjectType::bluebird; }
+        else if (i == 2) { birdtype = DynamicObject::DynamicObjectType::yellowbird; }
+        else if (i == 3) { birdtype = DynamicObject::DynamicObjectType::blackbird; }
+        else { birdtype = DynamicObject::DynamicObjectType::redbird; }
 
-    sf::RectangleShape sf_wallVisual(sf::Vector2f(20.0f, 160.0f));
-    sf_wallVisual.setOrigin(10.0f, 80.0f);
-    sf_wallVisual.setFillColor(sf::Color::Red);
+        birdPtr.push_back(std::make_shared<Bird>(world, 100.0f - (i * -20.0f), 500.0f, 15.0f, 5.0f, birdTextures[i], birdtype));
+    }
 
-    //Rather than having an immovable wall, we can use the dynamic body type to create one that can have velocity etc.
-    b2BodyDef b2_plankDef;
+    for (int i = 0; i < 4; i++) {
+        DynamicObject::DynamicObjectType pigtype;
 
-    b2_plankDef.type = b2_dynamicBody;
-    b2_plankDef.position.Set(550.0f / SCALE, 450.0f / SCALE);
-    b2Body* b2_plankBody = world.CreateBody(&b2_plankDef);
+        if (i == 0) { pigtype = DynamicObject::DynamicObjectType::pig; }
+        else if (i == 1) { pigtype = DynamicObject::DynamicObjectType::helmpig; }
+        else if (i == 2) { pigtype = DynamicObject::DynamicObjectType::bigpig; }
+        else { pigtype = DynamicObject::DynamicObjectType::kingpig; }
 
-    b2PolygonShape b2_plankBox;
-    b2_plankBox.SetAsBox(10.0f / SCALE, 60.0f / SCALE);
+        auto& pig = pigPtr.emplace_back(std::make_shared<Pig>(world, (500.0f + (i * 45.0f)), 400.0f, (15.0f + (i * 3)), (10 + (i * 2)), "../assets/Ang_Birds/Pigs.png", pigtype));
+        pig->getBody()->GetUserData().pointer = 3 + i;
+    }
 
-    b2FixtureDef b2_plankFixture;
-    b2_plankFixture.shape = &b2_plankBox;
-    b2_plankFixture.density = 1.5f;   // Light wood
-    b2_plankFixture.friction = 0.3f;
-    b2_plankBody->CreateFixture(&b2_plankFixture);
-
-    sf::RectangleShape sf_plankVisual(sf::Vector2f(20.0f, 120.0f));
-    sf_plankVisual.setOrigin(10.0f, 60.0f);
-    sf_plankVisual.setFillColor(sf::Color(139, 69, 19)); // Brown
-
-    //Create a ball that is fired when space is pressed. We need to first have a dynamic ball to do it.
-    b2BodyDef b2_ballDef;
-    b2_ballDef.type = b2_dynamicBody;
-    b2_ballDef.position.Set(100.0f / SCALE, 500.0f / SCALE);
-    b2Body* b2_ballBody = world.CreateBody(&b2_ballDef);
-
-    b2CircleShape b2_circleShape;
-    b2_circleShape.m_radius = 15.0f / SCALE;
-
-    b2FixtureDef b2_ballFixture;
-    b2_ballFixture.shape = &b2_circleShape;
-    b2_ballFixture.density = 1.0f;
-    b2_ballFixture.restitution = 0.5f; // Bounciness
-    b2_ballBody->CreateFixture(&b2_ballFixture);
-
-    sf::CircleShape sf_ballVisual(15.0f);
-    sf_ballVisual.setOrigin(15.0f, 15.0f);
-    sf_ballVisual.setFillColor(sf::Color::Yellow);
-
-    // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
+
+        // --- EVENT HANDLING ---
         sf::Event event;
         while (window.pollEvent(event)) {
+
             if (event.type == sf::Event::Closed)
                 window.close();
 
-            // INPUT HANDLING: Press SPACE to launch
+            if (event.type == sf::Event::MouseButtonPressed) {
+                if (event.mouseButton.button == sf::Mouse::Left) {
+                    if (!birdPtr.empty())
+                        birdPtr.front()->dragging();
+                }
+            }
+
+            if (event.type == sf::Event::MouseButtonReleased) {
+                if (event.mouseButton.button == sf::Mouse::Left) {
+                    if (!birdPtr.empty()) {
+                        birdPtr.front()->launch(catapult.getShotPos());
+                        abilityActivated = false;
+                        birdLaunched = true;
+                        birdTimer.restart();
+                    }
+                }
+            }
+
             if (event.type == sf::Event::KeyPressed) {
+
+                if (event.key.code == sf::Keyboard::L) {
+                    if (!birdPtr.empty()) {
+                        world.DestroyBody(birdPtr.front()->getBody());
+                        birdPtr.pop_front();
+
+                        for (auto& pig : pigPtr)
+                            pig->resetDeletionMark();
+
+                        contactlister.s_ptr.clear();
+                    }
+                }
+
                 if (event.key.code == sf::Keyboard::Space) {
-                    // Reset position of the ball so that it can be fired again from its original poisition.
-                    b2_ballBody->SetTransform(b2Vec2(100.0f / SCALE, 500.0f / SCALE), 0);
-                    b2_ballBody->SetLinearVelocity(b2Vec2(0, 0));
-                    b2_ballBody->SetAngularVelocity(0);
-
-                    // Apply impulse (X-axis, Y-axis) Negative Y is UP in Box2D because gravity is positive.
-                    b2_ballBody->ApplyLinearImpulse(b2Vec2(5.0f, -5.0f), b2_ballBody->GetWorldCenter(), true);
-
-                    std::cout << "Firing!!!!" << std::endl;
+                    if (!birdPtr.empty() && !birdPtr.front()->getDragging()) {
+                        abilityActivated = true;
+                    }
                 }
             }
         }
 
-        // Update Physics
+        // --- UPDATE MOUSE DRAG ---
+        if (!birdPtr.empty() && birdPtr.front()->getDragging()) {
+
+            sf::Vector2i mousePxl = sf::Mouse::getPosition(window);
+            sf::Vector2f mouseWorld(mousePxl.x, mousePxl.y);
+            sf::Vector2f dragVec(mouseWorld - catapult.getShotPos());
+
+            if (dragVec.x > 0) dragVec.x = 0;
+            if (dragVec.y < 0) dragVec.y = 0;
+
+            float length = std::sqrt(dragVec.x * dragVec.x + dragVec.y * dragVec.y);
+            float maxDrag = 100.0f;
+
+            if (length > maxDrag) {
+                dragVec /= length;
+                dragVec *= maxDrag;
+            }
+
+            sf::Vector2f finalPos = catapult.getShotPos() + dragVec;
+            birdPtr.front()->getBody()->SetTransform(b2Vec2(finalPos.x / SCALE, finalPos.y / SCALE), 0);
+        }
+
+        // --- ABILITY ACTIVATION ---
+        if (!birdPtr.empty() && abilityActivated)
+        {
+            auto& bird = birdPtr.front();
+            auto  type = bird->getBirdType();
+            b2Body* body = bird->getBody();
+
+            if (!bird->isAbilityUsed())
+            {
+                if (type == DynamicObject::DynamicObjectType::yellowbird)
+                {
+                    b2Vec2 vel = body->GetLinearVelocity();
+                    vel.x *= 2.5f;
+                    vel.y *= 2.5f;
+                    body->SetLinearVelocity(vel);
+                    bird->setAbilityUsed(true);
+                }
+
+                if (type == DynamicObject::DynamicObjectType::bluebird)
+                {
+                    b2Vec2 pos = body->GetPosition();
+                    b2Vec2 vel = body->GetLinearVelocity();
+
+                    float angles[] = { -0.3f, 0.0f, 0.3f };
+                    float speed = std::sqrt(vel.x * vel.x + vel.y * vel.y);
+
+                    for (float angleOffset : angles)
+                    {
+                        auto newBird = std::make_shared<Bird>(
+                            world,
+                            pos.x * SCALE,
+                            pos.y * SCALE,
+                            15.0f,
+                            5.0f,
+                            "../assets/Ang_Birds/BlueBird.png",
+                            DynamicObject::DynamicObjectType::bluebird
+                        );
+
+                        b2Vec2 newVel(
+                            vel.x + std::cos(angleOffset) * 0.5f,
+                            vel.y + std::sin(angleOffset) * speed * 0.3f
+                        );
+                        newBird->getBody()->SetLinearVelocity(newVel);
+                        newBird->setAbilityUsed(true);
+                        birdPtr.push_back(newBird);
+                    }
+
+                    world.DestroyBody(body);
+                    birdPtr.pop_front();
+                }
+
+                if (type == DynamicObject::DynamicObjectType::blackbird)
+                {
+                    b2Vec2 bombPos = body->GetPosition();
+                    float  blastRadius = 5.0f;
+                    float  blastPower = 30.0f;
+
+                    for (int i = 0; i < pigPtr.size(); i++)
+                    {
+                        b2Vec2 pigPos = pigPtr[i]->getBody()->GetPosition();
+                        b2Vec2 diff = pigPos - bombPos;
+                        float  dist = diff.Length();
+
+                        if (dist < blastRadius && dist > 0.0f)
+                        {
+                            float falloff = 1.0f - (dist / blastRadius);
+                            diff.Normalize();
+
+                            b2Vec2 impulse = blastPower * falloff * diff;
+                            pigPtr[i]->getBody()->ApplyLinearImpulseToCenter(impulse, true);
+                            pigPtr[i]->takeDamage(static_cast<int>(50 * falloff));
+
+                            if (pigPtr[i]->checkIfPopped())
+                            {
+                                world.DestroyBody(pigPtr[i]->getBody());
+                                pigPtr.erase(pigPtr.begin() + i);
+                                i--;
+                            }
+                        }
+                    }
+
+                    bird->setAbilityUsed(true);
+                }
+            }
+
+            abilityActivated = false;
+        }
+
+        // --- BIRD TIMER (auto remove after 3s) ---
+        if (birdLaunched) {
+            if (birdTimer.getElapsedTime().asSeconds() >= 3.0f) {
+                if (!birdPtr.empty()) {
+                    world.DestroyBody(birdPtr.front()->getBody());
+                    birdPtr.pop_front();
+
+                    for (auto& pig : pigPtr)
+                        pig->resetDeletionMark();
+
+                    contactlister.s_ptr.clear();
+                }
+                birdLaunched = false;
+            }
+        }
+
+        // --- DAMAGE LOOP ---
+        std::set<uintptr_t> s_p = contactlister.getPointer();
+        for (int i = 0; i < pigPtr.size(); i++)
+        {
+            uintptr_t currentPigID = pigPtr[i]->getBody()->GetUserData().pointer;
+
+            if (s_p.find(currentPigID) != s_p.end())
+            {
+                pigPtr[i]->takeDamage(10);
+                std::cout << "Pig has: " << pigPtr[i]->getHealth() << " Health" << std::endl;
+
+                if (pigPtr[i]->checkIfPopped())
+                {
+                    world.DestroyBody(pigPtr[i]->getBody());
+                    pigPtr.erase(pigPtr.begin() + i);
+                    i--;
+                }
+            }
+        }
+
+        // --- PHYSICS STEP ---
         world.Step(1.0f / 60.0f, 8, 3);
 
-        //All of the visuals needs to be synced with the physics.
+        for (auto& bird : birdPtr)
+            bird->getBody()->GetUserData().pointer = 100;
 
-        sf_ballVisual.setPosition(b2_ballBody->GetPosition().x * SCALE, b2_ballBody->GetPosition().y * SCALE);
-        sf_ballVisual.setRotation(b2_ballBody->GetAngle() * (180.0f / PI));
+        // --- UPDATE ---
+        catapult.update();
+        plank.Update();
 
-        //Static objects usually don't move, but we set the position once.
-        sf_groundVisual.setPosition(b2_groundBody->GetPosition().x * SCALE, b2_groundBody->GetPosition().y * SCALE);
-        sf_wallVisual.setPosition(b2_wallBody->GetPosition().x * SCALE, b2_wallBody->GetPosition().y * SCALE);
+        for (auto& pig : pigPtr)   pig->update();
+        for (auto& bird : birdPtr) bird->update();
+        for (auto& ni : Noninteractable) ni->start();
 
-        // Dynamic wall.
-        sf_plankVisual.setPosition(b2_plankBody->GetPosition().x * SCALE, b2_plankBody->GetPosition().y * SCALE);
-        sf_plankVisual.setRotation(b2_plankBody->GetAngle() * (180.0f / PI));
+        // --- DRAW ---
+        window.clear(sf::Color(135, 206, 235));
 
-        //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
-        window.clear(sf::Color(135, 206, 235)); // Sky Blue
+        for (auto& pig : pigPtr)   pig->draw(window);
+        for (auto& bird : birdPtr) bird->draw(window);
+        for (auto& ni : Noninteractable) ni->draw(window);
 
-        window.draw(sf_groundVisual);
-        window.draw(sf_wallVisual);
-        window.draw(sf_plankVisual);
-        window.draw(sf_ballVisual);
-
+        catapult.draw(window);
+        plank.draw(window);
         window.display();
     }
 

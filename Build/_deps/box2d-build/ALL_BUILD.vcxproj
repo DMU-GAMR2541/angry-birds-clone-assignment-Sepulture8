@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{87FFCE1C-4B82-3040-9EEA-AC55128A90FD}</ProjectGuid>
+    <ProjectGuid>{AC83DFB6-D488-3118-9075-A757C6E6A2CD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\CMakeLists.txt">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/AngrYBird/angry-birds-clone-assignment-Sepulture8 -BH:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/AngrYBird/angry-birds-clone-assignment-Sepulture8 -BH:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/AngrYBird/angry-birds-clone-assignment-Sepulture8 -BH:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/AngrYBird/angry-birds-clone-assignment-Sepulture8 -BH:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,46 +159,47 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
-      <Project>{BF67BCF0-A75B-3656-8B64-75A8D8C2215F}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
+      <Project>{B201F44C-776D-3AB9-848C-BDFFE447CA32}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\src\box2d.vcxproj">
-      <Project>{8FF8B9C9-027B-3820-A779-6D12849B4567}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\src\box2d.vcxproj">
+      <Project>{871AEE4D-5482-38F2-BA4E-692BB5B45722}</Project>
       <Name>box2d</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
-      <Project>{E8A93FBE-9D09-3DD7-B656-7982B30BF267}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
+      <Project>{B480E7A7-76B5-38AA-ABEA-4FD1DBDDCB67}</Project>
       <Name>glad</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
-      <Project>{47ACA9E3-AE3F-307F-AF08-2F48D76641C3}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
+      <Project>{D7CAF280-98B4-3274-BBE4-B3A4E47B4397}</Project>
       <Name>glfw</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
-      <Project>{517689C7-B43F-385B-AD79-5FD6B8BBF4F7}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
+      <Project>{FC5949BB-3261-33BC-BC36-BAA148331DCB}</Project>
       <Name>imgui</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
-      <Project>{09E4CADA-9C5C-3820-A739-E372466FABCF}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
+      <Project>{8988AEB0-A2D8-30B1-8133-FD72571C802C}</Project>
       <Name>sajson</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\testbed.vcxproj">
-      <Project>{DA32049D-B718-3DC1-BD24-F5C4E3574801}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\testbed.vcxproj">
+      <Project>{8D04031B-7A0C-39A1-ADD9-C5C401725202}</Project>
       <Name>testbed</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\unit-test\unit_test.vcxproj">
-      <Project>{E9AC54BB-A255-32AD-80FD-A666EB420CFB}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\unit-test\unit_test.vcxproj">
+      <Project>{BBAA0DEA-AA8F-30F5-871D-4403922D6A52}</Project>
       <Name>unit_test</Name>
     </ProjectReference>
   </ItemGroup>

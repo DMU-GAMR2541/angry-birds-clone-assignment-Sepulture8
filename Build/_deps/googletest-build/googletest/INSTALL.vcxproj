@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E81BB0FF-F280-3CBE-90D2-3C7BB4327A39}</ProjectGuid>
+    <ProjectGuid>{74C4FA6C-4481-3ADA-8285-F08715869466}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -84,7 +84,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -99,7 +99,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,7 +114,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\CMakeFiles\47cbd9154ff43e6a5d57bd1e393122aa\INSTALL_force.rule">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\CMakeFiles\1fe3cee8e94f7177784b7849da956c97\INSTALL_force.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -138,7 +138,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
@@ -153,7 +153,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
@@ -168,7 +168,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
@@ -183,20 +183,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
-      <Project>{BF67BCF0-A75B-3656-8B64-75A8D8C2215F}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
+      <Project>{B201F44C-776D-3AB9-848C-BDFFE447CA32}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\ALL_BUILD.vcxproj">
-      <Project>{87FFCE1C-4B82-3040-9EEA-AC55128A90FD}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-build\googletest\ALL_BUILD.vcxproj">
+      <Project>{AC83DFB6-D488-3118-9075-A757C6E6A2CD}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -13,7 +13,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{95E86B39-2118-3649-8F92-3B1116C38B14}</ProjectGuid>
+    <ProjectGuid>{536F75B2-8F73-35F8-A459-1D8359B1CC03}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,11 +49,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\CMakeLists.txt">
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild -BH:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild --check-stamp-file H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,22 +61,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\CMakeFiles\3.30.1\CMakeSystem.cmake;H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystem.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\download.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{CB9946C6-2496-36E0-8DF6-DB13562DE6AE}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{B3D25A31-1521-308B-AADE-8D07E09D8853}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\googletest-populate.vcxproj">
-      <Project>{594C3B03-3258-3FC9-B43D-70ACC0D9C483}</Project>
+    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-subbuild\googletest-populate.vcxproj">
+      <Project>{C078B8E2-237B-30BA-94E3-C48A852AF225}</Project>
       <Name>googletest-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

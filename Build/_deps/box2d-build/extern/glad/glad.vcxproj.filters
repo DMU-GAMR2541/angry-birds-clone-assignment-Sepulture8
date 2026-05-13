@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\src\gl.c">
+    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\src\gl.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\glad\gl.h">
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\glad\gl.h">
       <Filter>include\glad</Filter>
     </ClInclude>
-    <ClInclude Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\KHR\khrplatform.h">
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\KHR\khrplatform.h">
       <Filter>include\KHR</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\CMakeLists.txt" />
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{99D6638C-74C3-3D9E-A74B-1168966826EB}</UniqueIdentifier>
+      <UniqueIdentifier>{34EB8C79-CCDC-35B7-A2E8-880309148E67}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\KHR">
-      <UniqueIdentifier>{47C71230-DB0B-369A-B6F8-2390097152BE}</UniqueIdentifier>
+      <UniqueIdentifier>{74BA8DAB-215C-3FAD-8978-016ECD4B6134}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\glad">
-      <UniqueIdentifier>{76128453-03A8-3DF8-BB4B-440B94CF9B0F}</UniqueIdentifier>
+      <UniqueIdentifier>{49788897-602D-3025-9358-5610285EEB5D}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{CAD75905-5769-3F05-B4FF-D7EFD412BF35}</UniqueIdentifier>
+      <UniqueIdentifier>{DDA49E0A-7187-3FB5-90D7-1E161B656E80}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

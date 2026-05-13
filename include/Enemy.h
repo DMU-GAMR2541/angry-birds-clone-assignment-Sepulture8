@@ -1,4 +1,5 @@
 #pragma once
+#include "DynamicObject.h"
 class Enemy {
 /// <summary>
 /// Varaibles that define an enemy.
@@ -6,6 +7,8 @@ class Enemy {
 private:
     int i_health;
     bool b_isDestroyed;
+
+    
 
 public:
     //Default constructor for an enemy. 
@@ -20,8 +23,22 @@ public:
             i_health = 0;
             b_isDestroyed = true;
         }
+
+
+    }
+
+    void DrawBallPigVisual() {
+        
+       
+        // sf::CircleShape pigvisual(15.0f);  
+        // 
+        // pigvisual.setOrigin(15.0f, 15.0f);
+        //pigvisual.setFillColor(sf::Color::Green);
     }
 
     int getHealth() const { return i_health; }
     bool checkIfPopped() const { return b_isDestroyed; }
+
+
+   
 };

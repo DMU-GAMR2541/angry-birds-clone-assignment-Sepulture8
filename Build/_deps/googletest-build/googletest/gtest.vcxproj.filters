@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-src\googletest\src\gtest-all.cc">
+    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-src\googletest\src\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-src\googletest\CMakeLists.txt" />
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\googletest-src\googletest\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D476B2AB-2D7A-3F10-80D7-C69942940CAD}</UniqueIdentifier>
+      <UniqueIdentifier>{4BE30FE1-70F9-3C4E-A757-A7202F8CE8B7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

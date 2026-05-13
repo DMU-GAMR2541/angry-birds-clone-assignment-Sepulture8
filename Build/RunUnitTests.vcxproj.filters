@@ -1,27 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\test_src\RunTests.cpp">
+    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\src\Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\src\DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\src\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\src\StaticObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\test_src\RunTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Enemy.h">
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Bird.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Slingshot.h">
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Catapault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\DynamicObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Ground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\NonInteractable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Pig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Plank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Slingshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\include\Wall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\AngrYBird\angry-birds-clone-assignment-Sepulture8\CMakeLists.txt" />
+    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{FBA068CE-28DA-3C72-9115-4096826ABFB0}</UniqueIdentifier>
+      <UniqueIdentifier>{DB0659CA-1A98-330A-A531-9C4673058FAE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D476B2AB-2D7A-3F10-80D7-C69942940CAD}</UniqueIdentifier>
+      <UniqueIdentifier>{4BE30FE1-70F9-3C4E-A757-A7202F8CE8B7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

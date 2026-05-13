@@ -1,27 +1,27 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
+# file LICENSE.rst or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src")
-  file(MAKE_DIRECTORY "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src")
+if(NOT EXISTS "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src")
+  file(MAKE_DIRECTORY "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src")
 endif()
 file(MAKE_DIRECTORY
-  "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build"
-  "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix"
-  "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
-  "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
-  "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src"
-  "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build"
+  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix"
+  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
+  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src"
+  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
 )
 
 set(configSubDirs Debug)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "H:/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()
