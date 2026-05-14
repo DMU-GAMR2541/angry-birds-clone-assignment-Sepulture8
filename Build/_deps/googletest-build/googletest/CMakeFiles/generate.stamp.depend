@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/googletest-src/googletest/CMakeLists.txt
+C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/googletest-src/googletest/cmake/Config.cmake.in
+C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/googletest-src/googletest/cmake/gtest.pc.in
+C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/googletest-src/googletest/cmake/gtest_main.pc.in
+C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/googletest-src/googletest/cmake/internal_utils.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckIncludeFile.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckLibraryExists.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPython.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPython/Support.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake

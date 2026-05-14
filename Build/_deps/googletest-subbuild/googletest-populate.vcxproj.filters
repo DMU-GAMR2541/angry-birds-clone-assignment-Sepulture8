@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\3ddfc6d95e32cb133df2a5f37a85266e\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\ebe44cd7746db3b260ead3a6ae818f43\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\6c278b3bb27675e5ff5282fd882794c8\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7EB50E7E-05C4-336B-8028-DA420E6647C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

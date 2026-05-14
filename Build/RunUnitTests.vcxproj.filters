@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\src\Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\src\DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\src\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\src\StaticObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\test_src\RunTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Catapault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\DynamicObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Ground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\NonInteractable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Pig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Plank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Slingshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\include\Wall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1123910B-11E4-3A8C-983D-FF227244CDF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5C234467-EBAE-3B65-B259-D1A57A28F268}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

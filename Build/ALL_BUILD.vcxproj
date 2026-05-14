@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31B734AE-0A61-31C7-A182-257E98E79E3E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master" "-BC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build" --check-stamp-file "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master" "-BC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build" --check-stamp-file "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master" "-BC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build" --check-stamp-file "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master" "-BC:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build" --check-stamp-file "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\ZERO_CHECK.vcxproj">
+      <Project>{61F69981-5DD9-33B5-B256-283DBDDBAEE1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\Annoyed_Flocks.vcxproj">
+      <Project>{D033ED1D-B8F0-3C65-8EE9-B479E8E2C442}</Project>
+      <Name>Annoyed_Flocks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\RunUnitTests.vcxproj">
+      <Project>{D487E08B-B2C6-3BC0-AA24-E55F392B958D}</Project>
+      <Name>RunUnitTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-build\src\box2d.vcxproj">
+      <Project>{9CCFA83E-540E-3048-B3A2-B97BBEABA95E}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
+      <Project>{73FCD649-CF2C-3256-8F4C-21A1216C88FB}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
+      <Project>{B9F4460B-DFA0-358F-850D-45E0204BEB40}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{34F7EBE6-144A-3922-A16C-39CC33BC5841}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-build\googlemock\gmock_main.vcxproj">
+      <Project>{203D4964-2CE4-390E-9506-3FC6E64D1F03}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{AFD2876C-4F3A-36EC-BE28-B81286979C95}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{1D5E857A-2DC6-3EE8-8898-B6CF60CB0C6D}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
+      <Project>{38439C6C-F025-3985-ABE7-D63BFFF4EAF6}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
+      <Project>{4E7E09B4-DCF8-36E3-A2CF-AE6BD4C27E77}</Project>
+      <Name>sajson</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{405B421D-55B7-33BA-8F09-20E7E33F7860}</Project>
+      <Name>sfml-audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{CB5EFA95-AFCB-3D4C-80C2-D94B7D9CA653}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\sfml-build\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{50F155FA-1917-3079-A1B2-244BC7B6B671}</Project>
+      <Name>sfml-main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{B1EC74AF-9ACC-3553-BE4F-697DA30D3396}</Project>
+      <Name>sfml-network</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{3EBA77E1-4B81-3B4A-B31E-E636D40BEBED}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{A1B1512D-0D71-3095-BB12-7D976791B834}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-build\testbed\testbed.vcxproj">
+      <Project>{4BE658FD-7057-30B1-96CA-DC60C3457FDA}</Project>
+      <Name>testbed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-build\unit-test\unit_test.vcxproj">
+      <Project>{8108CBDB-66D6-37E1-B7A3-B7D9F49A81D7}</Project>
+      <Name>unit_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

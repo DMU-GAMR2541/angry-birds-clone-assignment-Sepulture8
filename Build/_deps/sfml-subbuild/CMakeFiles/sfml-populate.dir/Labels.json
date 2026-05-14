@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/e37da7ffe96d2c5ae4614ee78ec7f807/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/65996e7fac318bc483cf83f406a28a84/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Marut/Downloads/angry-birds-clone-assignment-Sepulture8-master (1)/angry-birds-clone-assignment-Sepulture8-master/Build/_deps/sfml-subbuild/CMakeFiles/4c086af7c96e3c152884647a5bffa5c5/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\7e1bdfedd59761d3768216583bca6e31\box2d-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\95c41ee3226e2c0740094e7d991b1b4d\box2d-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\411d50396638ad77d86f25050c550622\box2d-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Marut\Downloads\angry-birds-clone-assignment-Sepulture8-master (1)\angry-birds-clone-assignment-Sepulture8-master\Build\_deps\box2d-subbuild\CMakeFiles\box2d-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5466939F-553E-3377-AC7A-38951902247F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
