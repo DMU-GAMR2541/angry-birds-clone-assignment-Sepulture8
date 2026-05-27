@@ -204,6 +204,17 @@ TEST(RelativePositioning, PigsAreCorrectlySpaced)
 }
 
 
+TEST(TextureLoading, ValidTextureLoadsSuccessfully)
+{
+    sf::Texture texture;
+
+    bool loaded = texture.loadFromFile("../assets/Ang_Birds/RedBird.png");
+
+    EXPECT_TRUE(loaded);
+    EXPECT_GT(texture.getSize().x, 0);
+    EXPECT_GT(texture.getSize().y, 0);
+}
+
 
 // MAIN
 
