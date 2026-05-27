@@ -226,7 +226,7 @@ TEST(TextureLoading, SpriteCanStoreTexture)
 
     sprite.setTexture(texture);
 
-    // sprite should now have a texture
+   
     EXPECT_NE(sprite.getTexture(), nullptr);
 }
 

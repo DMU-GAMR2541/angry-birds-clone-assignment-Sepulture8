@@ -17,6 +17,13 @@ private:
 public:
     Pig() = default;
 
+    static inline int pigDestroyedCount = 0;
+
+    Pig::~Pig()
+    {
+        pigDestroyedCount++;
+    }
+
     Pig(
         b2World& world,
         float xPos,

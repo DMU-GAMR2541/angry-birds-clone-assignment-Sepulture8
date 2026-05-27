@@ -27,7 +27,12 @@ public:
 	}
 
 	DynamicObject() = default;
-	~DynamicObject();
+	static inline int dynamicObjectDestroyedCount = 0;
+
+	DynamicObject::~DynamicObject()
+	{
+		dynamicObjectDestroyedCount++;
+	}
 
 	DynamicObject(b2World& b2_WorldPos, b2Vec2 b2_Pos, std::string spr_Location);
 

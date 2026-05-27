@@ -1,9 +1,11 @@
 #include "DynamicObject.h"
 #include <iostream>
 #include "Bird.h"
+static inline int dynamicObjectDestroyedCount = 0;
 
-DynamicObject::~DynamicObject() {
-
+DynamicObject::~DynamicObject()
+{
+	dynamicObjectDestroyedCount++;
 }
 
 DynamicObject::DynamicObject(b2World& b2_world, b2Vec2 b2_posIn, std::string str_SpriteLocation) {
