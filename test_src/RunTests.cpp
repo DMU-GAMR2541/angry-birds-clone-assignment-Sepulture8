@@ -215,6 +215,30 @@ TEST(TextureLoading, ValidTextureLoadsSuccessfully)
     EXPECT_GT(texture.getSize().y, 0);
 }
 
+TEST(TextureLoading, SpriteCanStoreTexture)
+{
+    sf::Texture texture;
+    sf::Sprite sprite;
+
+    bool loaded = texture.loadFromFile("../assets/Ang_Birds/BlueBird.png");
+
+    EXPECT_TRUE(loaded);
+
+    sprite.setTexture(texture);
+
+    // sprite should now have a texture
+    EXPECT_NE(sprite.getTexture(), nullptr);
+}
+
+TEST(TextureLoading, InvalidTextureFailsGracefully)
+{
+    sf::Texture texture;
+
+    bool loaded = texture.loadFromFile("invalid_path/does_not_exist.png");
+
+    EXPECT_FALSE(loaded);
+}
+
 
 // MAIN
 
