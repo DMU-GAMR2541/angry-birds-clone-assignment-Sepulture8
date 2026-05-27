@@ -1,4 +1,4 @@
-#include <gtest/gtest.h>
+﻿#include <gtest/gtest.h>
 #include "Enemy.h"
 #include "Slingshot.h"
 #include "Bird.h"
@@ -6,7 +6,14 @@
 #include <box2d/box2d.h>
 #include <memory>
 #include <vector>
+#include "DynamicObject.h"
+#include "StaticObject.h"
 
+#include "Plank.h"
+#include "Pig.h"
+#include "NonInteractable.h"
+#include "Catapault.h"
+#include "ContactListener.h"
 
 // ENEMY FIXTURE
 
@@ -59,6 +66,26 @@ protected:
     }
 };
 
+//STATIC OBJECT TESTS
+
+TEST(StaticObjectPlacement, CorrectPlacementInWindow)
+{
+    b2World world(b2Vec2(0.0f, 9.8f));
+
+    float x = 300.f;
+    float y = 200.f;
+
+    NonInteractable obj(world,
+        x, y,
+        50.f, 20.f,
+        sf::Color::Red
+    );
+
+    b2Vec2 pos = obj.getBody()->GetPosition();
+
+    EXPECT_NEAR(pos.x, x / 30.0f, 0.01f);
+    EXPECT_NEAR(pos.y, y / 30.0f, 0.01f);
+}
 
 // ENEMY TESTS
 
@@ -144,6 +171,8 @@ TEST_F(BirdTest, BirdMovesAcrossDifferentLaunchPositions)
         EXPECT_NE(bird->getBody()->GetLinearVelocity().Length(), 0.0f);
     }
 }
+
+
 
 
 // MAIN

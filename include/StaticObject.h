@@ -29,4 +29,9 @@ public:
     virtual ~StaticObject();
 
     virtual void draw(sf::RenderWindow& window) = 0;
+
+    b2Body* getBody() const
+    {
+        return b2_body;
+    }
 };

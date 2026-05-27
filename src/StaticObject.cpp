@@ -24,3 +24,4 @@ StaticObject::StaticObject(
 
     b2_body->CreateFixture(&box, 0.0f);
 }
+
