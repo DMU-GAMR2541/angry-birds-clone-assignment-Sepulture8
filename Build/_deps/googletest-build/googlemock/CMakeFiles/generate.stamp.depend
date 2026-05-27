@@ -1,10 +1,10 @@
 # CMake generation dependency list for this directory.
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckIncludeFile.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckLibraryExists.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageMessage.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googlemock/CMakeLists.txt
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

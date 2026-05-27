@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\CMakeFiles\1c1e876794681ab4291b3e7b866096bb\INSTALL_force.rule">
+    <CustomBuild Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\CMakeFiles\3f94a7e430beffdafbc4ac63cedddcf6\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{7FB1A794-B70D-3E47-82E0-F83CABFDB66E}</UniqueIdentifier>
+      <UniqueIdentifier>{FD2917F5-CDC9-32F8-8092-AB2E48A779CB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

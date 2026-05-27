@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src")
-  file(MAKE_DIRECTORY "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src")
+if(NOT EXISTS "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src")
+  file(MAKE_DIRECTORY "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src")
 endif()
 file(MAKE_DIRECTORY
-  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build"
-  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix"
-  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/tmp"
-  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp"
-  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src"
-  "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp"
+  "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build"
+  "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix"
+  "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/tmp"
+  "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp"
+  "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src"
+  "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp"
 )
 
 set(configSubDirs Debug)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-subbuild/box2d-populate-prefix/src/box2d-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

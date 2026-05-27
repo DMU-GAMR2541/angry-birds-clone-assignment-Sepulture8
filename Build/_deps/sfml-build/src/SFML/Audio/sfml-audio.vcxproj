@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F0E8D615-20A3-36E7-B732-637CC09C11AF}</ProjectGuid>
+    <ProjectGuid>{1EA96BCF-5400-322E-93FC-F3D01745322C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-audio.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-audio-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-audio.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-audio-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-audio.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-audio-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-audio.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-audio-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -101,15 +101,15 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Debug\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Debug\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,8 +122,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -146,15 +146,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Release\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\Release\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -167,8 +167,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -191,15 +191,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,8 +212,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -235,15 +235,15 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\dr_mp3;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers\AL;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -255,11 +255,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt">
+    <CustomBuild Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -267,12 +267,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,12 +280,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -293,12 +293,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,13 +306,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.cpp">
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -330,8 +330,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\AlResource.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\AlResource.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -349,8 +349,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\AlResource.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\AlResource.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -368,9 +368,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.hpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Export.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\Listener.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.hpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Export.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\Listener.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -388,8 +388,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Listener.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\Music.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Listener.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\Music.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -407,8 +407,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Music.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\Sound.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Music.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\Sound.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -426,8 +426,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Sound.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundBuffer.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\Sound.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundBuffer.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -445,8 +445,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundBuffer.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundBufferRecorder.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundBufferRecorder.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -464,8 +464,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundBufferRecorder.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\InputSoundFile.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\InputSoundFile.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -483,8 +483,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\InputSoundFile.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\OutputSoundFile.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\OutputSoundFile.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -502,8 +502,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\OutputSoundFile.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundRecorder.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundRecorder.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -521,8 +521,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundRecorder.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundSource.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundSource.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -540,8 +540,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundSource.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundStream.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundSource.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundStream.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -559,8 +559,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundStream.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileFactory.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundStream.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileFactory.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -578,11 +578,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.hpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.inl" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileReader.hpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.inl" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -600,8 +600,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -619,8 +619,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -638,8 +638,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -657,9 +657,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileWriter.hpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -677,8 +677,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -696,8 +696,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.hpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.cpp">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.hpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -718,14 +718,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
-      <Project>{B201F44C-776D-3AB9-848C-BDFFE447CA32}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
+      <Project>{57A38A60-2654-3028-B350-400A94BB4CAD}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{346F4EF7-C45D-3AA8-990C-466E30741189}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{84A51059-E487-3CDC-A1F7-4DBDE1EE0DE8}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>

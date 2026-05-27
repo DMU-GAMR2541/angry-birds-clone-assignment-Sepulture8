@@ -79,9 +79,9 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 13/05/2026 14:25:38.
+      Build started 27/05/2026 15:49:20.
       
-      Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -94,7 +94,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.32
+      Time Elapsed 00:00:00.65
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
+        C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -698,9 +698,9 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 13/05/2026 14:25:40.
+      Build started 27/05/2026 15:49:21.
       
-      Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -713,7 +713,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -721,13 +721,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.76
+      Time Elapsed 00:00:00.61
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -735,7 +735,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -1081,8 +1081,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-p6cwnh"
-      binary: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-p6cwnh"
+      source: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-dq8eqq"
+      binary: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-dq8eqq"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -1092,39 +1092,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-p6cwnh'
+        Change Dir: 'C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-dq8eqq'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68803.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9473d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 14:25:41.
+        Build started 27/05/2026 15:49:22.
         
-        Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-p6cwnh\\cmTC_68803.vcxproj" on node 1 (default targets).
+        Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-dq8eqq\\cmTC_9473d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-p6cwnh\\Debug\\".
-          Creating directory "cmTC_68803.dir\\Debug\\cmTC_68803.tlog\\".
+          Creating directory "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-dq8eqq\\Debug\\".
+          Creating directory "cmTC_9473d.dir\\Debug\\cmTC_9473d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_68803.dir\\Debug\\cmTC_68803.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_68803.dir\\Debug\\cmTC_68803.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9473d.dir\\Debug\\cmTC_9473d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9473d.dir\\Debug\\cmTC_9473d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_68803.dir\\Debug\\\\" /Fd"cmTC_68803.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9473d.dir\\Debug\\\\" /Fd"cmTC_9473d.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_68803.dir\\Debug\\\\" /Fd"cmTC_68803.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9473d.dir\\Debug\\\\" /Fd"cmTC_9473d.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-p6cwnh\\Debug\\cmTC_68803.exe" /INCREMENTAL /ILK:"cmTC_68803.dir\\Debug\\cmTC_68803.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-p6cwnh/Debug/cmTC_68803.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-p6cwnh/Debug/cmTC_68803.lib" /MACHINE:X64  /machine:x64 cmTC_68803.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_68803.vcxproj -> D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-p6cwnh\\Debug\\cmTC_68803.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-dq8eqq\\Debug\\cmTC_9473d.exe" /INCREMENTAL /ILK:"cmTC_9473d.dir\\Debug\\cmTC_9473d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-dq8eqq/Debug/cmTC_9473d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-dq8eqq/Debug/cmTC_9473d.lib" /MACHINE:X64  /machine:x64 cmTC_9473d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9473d.vcxproj -> C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-dq8eqq\\Debug\\cmTC_9473d.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_68803.dir\\Debug\\cmTC_68803.tlog\\unsuccessfulbuild".
-          Touching "cmTC_68803.dir\\Debug\\cmTC_68803.tlog\\cmTC_68803.lastbuildstate".
-        Done Building Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-p6cwnh\\cmTC_68803.vcxproj" (default targets).
+          Deleting file "cmTC_9473d.dir\\Debug\\cmTC_9473d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9473d.dir\\Debug\\cmTC_9473d.tlog\\cmTC_9473d.lastbuildstate".
+        Done Building Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-dq8eqq\\cmTC_9473d.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.68
+        Time Elapsed 00:00:00.58
         
       exitCode: 0
   -
@@ -1164,8 +1164,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-80emp9"
-      binary: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-80emp9"
+      source: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-9817qk"
+      binary: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-9817qk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -1176,39 +1176,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-80emp9'
+        Change Dir: 'C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-9817qk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fd4ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aae5f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 14:25:42.
+        Build started 27/05/2026 15:49:23.
         
-        Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-80emp9\\cmTC_fd4ea.vcxproj" on node 1 (default targets).
+        Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-9817qk\\cmTC_aae5f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-80emp9\\Debug\\".
-          Creating directory "cmTC_fd4ea.dir\\Debug\\cmTC_fd4ea.tlog\\".
+          Creating directory "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-9817qk\\Debug\\".
+          Creating directory "cmTC_aae5f.dir\\Debug\\cmTC_aae5f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fd4ea.dir\\Debug\\cmTC_fd4ea.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fd4ea.dir\\Debug\\cmTC_fd4ea.tlog\\unsuccessfulbuild".
+          Creating "cmTC_aae5f.dir\\Debug\\cmTC_aae5f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_aae5f.dir\\Debug\\cmTC_aae5f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_fd4ea.dir\\Debug\\\\" /Fd"cmTC_fd4ea.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_aae5f.dir\\Debug\\\\" /Fd"cmTC_aae5f.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_fd4ea.dir\\Debug\\\\" /Fd"cmTC_fd4ea.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_aae5f.dir\\Debug\\\\" /Fd"cmTC_aae5f.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Marut\\Downloads\\cmake-4.3.2-windows-x86_64\\cmake-4.3.2-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-80emp9\\Debug\\cmTC_fd4ea.exe" /INCREMENTAL /ILK:"cmTC_fd4ea.dir\\Debug\\cmTC_fd4ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-80emp9/Debug/cmTC_fd4ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-80emp9/Debug/cmTC_fd4ea.lib" /MACHINE:X64  /machine:x64 cmTC_fd4ea.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_fd4ea.vcxproj -> D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-80emp9\\Debug\\cmTC_fd4ea.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-9817qk\\Debug\\cmTC_aae5f.exe" /INCREMENTAL /ILK:"cmTC_aae5f.dir\\Debug\\cmTC_aae5f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-9817qk/Debug/cmTC_aae5f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-9817qk/Debug/cmTC_aae5f.lib" /MACHINE:X64  /machine:x64 cmTC_aae5f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_aae5f.vcxproj -> C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-9817qk\\Debug\\cmTC_aae5f.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_fd4ea.dir\\Debug\\cmTC_fd4ea.tlog\\unsuccessfulbuild".
-          Touching "cmTC_fd4ea.dir\\Debug\\cmTC_fd4ea.tlog\\cmTC_fd4ea.lastbuildstate".
-        Done Building Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-80emp9\\cmTC_fd4ea.vcxproj" (default targets).
+          Deleting file "cmTC_aae5f.dir\\Debug\\cmTC_aae5f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_aae5f.dir\\Debug\\cmTC_aae5f.tlog\\cmTC_aae5f.lastbuildstate".
+        Done Building Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-9817qk\\cmTC_aae5f.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.72
+        Time Elapsed 00:00:00.65
         
       exitCode: 0
   -
@@ -6269,8 +6269,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-m8hgd4"
-      binary: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-m8hgd4"
+      source: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-c4qe32"
+      binary: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-c4qe32"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -6279,34 +6279,34 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-m8hgd4'
+        Change Dir: 'C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-c4qe32'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4ec35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_84e8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 14:25:51.
+        Build started 27/05/2026 15:49:28.
         
-        Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\cmTC_4ec35.vcxproj" on node 1 (default targets).
+        Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\cmTC_84e8b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\Debug\\".
-          Creating directory "cmTC_4ec35.dir\\Debug\\cmTC_4ec35.tlog\\".
+          Creating directory "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\Debug\\".
+          Creating directory "cmTC_84e8b.dir\\Debug\\cmTC_84e8b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4ec35.dir\\Debug\\cmTC_4ec35.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4ec35.dir\\Debug\\cmTC_4ec35.tlog\\unsuccessfulbuild".
+          Creating "cmTC_84e8b.dir\\Debug\\cmTC_84e8b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_84e8b.dir\\Debug\\cmTC_84e8b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4ec35.dir\\Debug\\\\" /Fd"cmTC_4ec35.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_84e8b.dir\\Debug\\\\" /Fd"cmTC_84e8b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4ec35.dir\\Debug\\\\" /Fd"cmTC_4ec35.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_84e8b.dir\\Debug\\\\" /Fd"cmTC_84e8b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\src.c"
           src.c
-        D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\cmTC_4ec35.vcxproj]
-        Done Building Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\cmTC_4ec35.vcxproj" (default targets) -- FAILED.
+        C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\cmTC_84e8b.vcxproj]
+        Done Building Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\cmTC_84e8b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\cmTC_4ec35.vcxproj" (default target) (1) ->
+        "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\cmTC_84e8b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m8hgd4\\cmTC_4ec35.vcxproj]
+          C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4qe32\\cmTC_84e8b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -6325,8 +6325,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-x1bbpv"
-      binary: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-x1bbpv"
+      source: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-jmzwvw"
+      binary: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-jmzwvw"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -6335,41 +6335,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-x1bbpv'
+        Change Dir: 'C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-jmzwvw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97fb7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6eda0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 14:25:52.
+        Build started 27/05/2026 15:49:29.
         
-        Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\cmTC_97fb7.vcxproj" on node 1 (default targets).
+        Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\cmTC_6eda0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\Debug\\".
-          Creating directory "cmTC_97fb7.dir\\Debug\\cmTC_97fb7.tlog\\".
+          Creating directory "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\Debug\\".
+          Creating directory "cmTC_6eda0.dir\\Debug\\cmTC_6eda0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_97fb7.dir\\Debug\\cmTC_97fb7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_97fb7.dir\\Debug\\cmTC_97fb7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6eda0.dir\\Debug\\cmTC_6eda0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6eda0.dir\\Debug\\cmTC_6eda0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_97fb7.dir\\Debug\\\\" /Fd"cmTC_97fb7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6eda0.dir\\Debug\\\\" /Fd"cmTC_6eda0.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_97fb7.dir\\Debug\\\\" /Fd"cmTC_97fb7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6eda0.dir\\Debug\\\\" /Fd"cmTC_6eda0.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\Debug\\cmTC_97fb7.exe" /INCREMENTAL /ILK:"cmTC_97fb7.dir\\Debug\\cmTC_97fb7.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-x1bbpv/Debug/cmTC_97fb7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-x1bbpv/Debug/cmTC_97fb7.lib" /MACHINE:X64  /machine:x64 cmTC_97fb7.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\cmTC_97fb7.vcxproj]
-        Done Building Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\cmTC_97fb7.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\Debug\\cmTC_6eda0.exe" /INCREMENTAL /ILK:"cmTC_6eda0.dir\\Debug\\cmTC_6eda0.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-jmzwvw/Debug/cmTC_6eda0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-jmzwvw/Debug/cmTC_6eda0.lib" /MACHINE:X64  /machine:x64 cmTC_6eda0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\cmTC_6eda0.vcxproj]
+        Done Building Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\cmTC_6eda0.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\cmTC_97fb7.vcxproj" (default target) (1) ->
+        "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\cmTC_6eda0.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x1bbpv\\cmTC_97fb7.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jmzwvw\\cmTC_6eda0.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.45
         
       exitCode: 1
   -
@@ -6383,8 +6383,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-v7y3co"
-      binary: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-v7y3co"
+      source: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-yglk8n"
+      binary: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-yglk8n"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -6393,41 +6393,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-v7y3co'
+        Change Dir: 'C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-yglk8n'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1c4b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e121e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 14:25:53.
+        Build started 27/05/2026 15:49:30.
         
-        Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\cmTC_1c4b6.vcxproj" on node 1 (default targets).
+        Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\cmTC_e121e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\Debug\\".
-          Creating directory "cmTC_1c4b6.dir\\Debug\\cmTC_1c4b6.tlog\\".
+          Creating directory "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\Debug\\".
+          Creating directory "cmTC_e121e.dir\\Debug\\cmTC_e121e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_1c4b6.dir\\Debug\\cmTC_1c4b6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_1c4b6.dir\\Debug\\cmTC_1c4b6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e121e.dir\\Debug\\cmTC_e121e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e121e.dir\\Debug\\cmTC_e121e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1c4b6.dir\\Debug\\\\" /Fd"cmTC_1c4b6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e121e.dir\\Debug\\\\" /Fd"cmTC_e121e.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1c4b6.dir\\Debug\\\\" /Fd"cmTC_1c4b6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e121e.dir\\Debug\\\\" /Fd"cmTC_e121e.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\Debug\\cmTC_1c4b6.exe" /INCREMENTAL /ILK:"cmTC_1c4b6.dir\\Debug\\cmTC_1c4b6.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-v7y3co/Debug/cmTC_1c4b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-v7y3co/Debug/cmTC_1c4b6.lib" /MACHINE:X64  /machine:x64 cmTC_1c4b6.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\cmTC_1c4b6.vcxproj]
-        Done Building Project "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\cmTC_1c4b6.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\Debug\\cmTC_e121e.exe" /INCREMENTAL /ILK:"cmTC_e121e.dir\\Debug\\cmTC_e121e.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-yglk8n/Debug/cmTC_e121e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/CMakeFiles/CMakeScratch/TryCompile-yglk8n/Debug/cmTC_e121e.lib" /MACHINE:X64  /machine:x64 cmTC_e121e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\cmTC_e121e.vcxproj]
+        Done Building Project "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\cmTC_e121e.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\cmTC_1c4b6.vcxproj" (default target) (1) ->
+        "C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\cmTC_e121e.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\AngrYBird (3)\\AngrYBird\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-v7y3co\\cmTC_1c4b6.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\AngryBirdsWokr\\angry-birds-clone-assignment-Sepulture8\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yglk8n\\cmTC_e121e.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.56
         
       exitCode: 1
   -
@@ -6680,14 +6680,14 @@ events:
     names:
       - "ft2build.h"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/freetype2/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/freetype2/"
@@ -6825,13 +6825,13 @@ events:
       - "/REGISTRY-NOTFOUND/freetype2/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/ft2build.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/ft2build.h"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/ft2build.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/ft2build.h"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -6888,14 +6888,14 @@ events:
       - "freetype/config/ftheader.h"
       - "config/ftheader.h"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/freetype2/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/freetype2/"
@@ -7033,14 +7033,14 @@ events:
       - "/REGISTRY-NOTFOUND/freetype2/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/freetype/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/freetype2/freetype/config/ftheader.h"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/freetype/config/ftheader.h"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/freetype2/freetype/config/ftheader.h"
@@ -7177,13 +7177,13 @@ events:
       - "/REGISTRY-NOTFOUND/include/freetype/config/ftheader.h"
       - "/REGISTRY-NOTFOUND/freetype2/freetype/config/ftheader.h"
       - "/REGISTRY-NOTFOUND/freetype/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/config/ftheader.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/config/ftheader.h"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/freetype2/config/ftheader.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/config/ftheader.h"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/freetype2"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -7241,8 +7241,8 @@ events:
       - "libfreetype"
       - "freetype219"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
@@ -7318,11 +7318,11 @@ events:
       - "/REGISTRY-NOTFOUND/lib/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/freetype.lib"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/freetype.lib"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -7381,18 +7381,18 @@ events:
     names:
       - "al.h"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/AL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/OpenAL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/OpenAL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/include/AL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/include/OpenAL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/include/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/AL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/OpenAL/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/OpenAL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/OpenAL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/include/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/include/OpenAL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/include/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/OpenAL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/AL/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/OpenAL/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/"
@@ -7592,14 +7592,14 @@ events:
       - "/REGISTRY-NOTFOUND/OpenAL/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/AL/al.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/OpenAL/al.h"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/al.h"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/AL/al.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/OpenAL/al.h"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/include/al.h"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -7658,12 +7658,12 @@ events:
       - "OpenAL32"
       - "openal32"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/libx32/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
@@ -7881,12 +7881,12 @@ events:
       - "/REGISTRY-NOTFOUND/libs/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/libx32/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
@@ -8103,12 +8103,12 @@ events:
       - "/REGISTRY-NOTFOUND/libs64/"
       - "/REGISTRY-NOTFOUND/libs/"
       - "/REGISTRY-NOTFOUND/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/libx32/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
@@ -8325,12 +8325,12 @@ events:
       - "/REGISTRY-NOTFOUND/libs64/"
       - "/REGISTRY-NOTFOUND/libs/"
       - "/REGISTRY-NOTFOUND/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/libx32/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
@@ -8547,15 +8547,15 @@ events:
       - "/REGISTRY-NOTFOUND/libs64/"
       - "/REGISTRY-NOTFOUND/libs/"
       - "/REGISTRY-NOTFOUND/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/openal32.lib"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/libs/"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/openal32.lib"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -8615,8 +8615,8 @@ events:
     names:
       - "ogg/ogg.h"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -8646,11 +8646,11 @@ events:
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/"
       - "C:/Program Files (x86)/Annoyed_Flocks/include/"
       - "C:/Program Files (x86)/Annoyed_Flocks/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -8706,8 +8706,8 @@ events:
     names:
       - "vorbis/vorbisfile.h"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -8737,11 +8737,11 @@ events:
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/"
       - "C:/Program Files (x86)/Annoyed_Flocks/include/"
       - "C:/Program Files (x86)/Annoyed_Flocks/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -8797,7 +8797,7 @@ events:
     names:
       - "ogg"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -8830,10 +8830,10 @@ events:
       - "C:/Program Files (x86)/Annoyed_Flocks/bin/"
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/bin/"
       - "/bin/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/ogg.lib"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/ogg.lib"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -8893,7 +8893,7 @@ events:
     names:
       - "vorbis"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -8926,10 +8926,10 @@ events:
       - "C:/Program Files (x86)/Annoyed_Flocks/bin/"
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/bin/"
       - "/bin/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/vorbis.lib"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/vorbis.lib"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -8989,7 +8989,7 @@ events:
     names:
       - "vorbisfile"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -9022,10 +9022,10 @@ events:
       - "C:/Program Files (x86)/Annoyed_Flocks/bin/"
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/bin/"
       - "/bin/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/vorbisfile.lib"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/vorbisfile.lib"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -9085,7 +9085,7 @@ events:
     names:
       - "vorbisenc"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -9118,10 +9118,10 @@ events:
       - "C:/Program Files (x86)/Annoyed_Flocks/bin/"
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/bin/"
       - "/bin/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/vorbisenc.lib"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/vorbisenc.lib"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -9181,8 +9181,8 @@ events:
     names:
       - "FLAC/all.h"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -9212,11 +9212,11 @@ events:
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/"
       - "C:/Program Files (x86)/Annoyed_Flocks/include/"
       - "C:/Program Files (x86)/Annoyed_Flocks/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/headers/AL"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -9272,7 +9272,7 @@ events:
     names:
       - "FLAC"
     candidate_directories:
-      - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -9305,10 +9305,10 @@ events:
       - "C:/Program Files (x86)/Annoyed_Flocks/bin/"
       - "C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/bin/"
       - "/bin/"
-    found: "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/flac.lib"
+    found: "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/flac.lib"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+        - "C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"

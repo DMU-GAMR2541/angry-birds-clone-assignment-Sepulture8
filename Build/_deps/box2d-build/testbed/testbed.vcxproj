@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8D04031B-7A0C-39A1-ADD9-C5C401725202}</ProjectGuid>
+    <ProjectGuid>{FA299CBD-CE51-3694-82CE-4CE116E3D07E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,38 +59,38 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testbed.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testbed</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\Release\</OutDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testbed.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testbed</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\MinSizeRel\</OutDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testbed.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testbed</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\RelWithDebInfo\</OutDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testbed.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testbed</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
-    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/testbed</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -114,10 +114,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -127,7 +127,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/" "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/ C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -144,9 +144,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Debug/testbed.lib</ImportLibrary>
+      <ImportLibrary>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Debug/testbed.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Debug/testbed.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Debug/testbed.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -156,7 +156,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -181,10 +181,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -194,7 +194,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/" "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/ C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -211,9 +211,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Release/testbed.lib</ImportLibrary>
+      <ImportLibrary>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Release/testbed.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Release/testbed.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/Release/testbed.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -223,7 +223,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -248,10 +248,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -261,7 +261,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/" "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/ C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,9 +278,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/MinSizeRel/testbed.lib</ImportLibrary>
+      <ImportLibrary>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/MinSizeRel/testbed.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/MinSizeRel/testbed.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/MinSizeRel/testbed.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -290,7 +290,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -314,10 +314,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\src\..\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glfw\include;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\imgui\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\sajson\..;C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -327,7 +327,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/" "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -E copy_directory C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/data/ C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/data/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -344,9 +344,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/RelWithDebInfo/testbed.lib</ImportLibrary>
+      <ImportLibrary>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/RelWithDebInfo/testbed.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/RelWithDebInfo/testbed.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/bin/RelWithDebInfo/testbed.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -355,11 +355,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\CMakeLists.txt">
+    <CustomBuild Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -368,11 +368,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -381,11 +381,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -394,11 +394,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-src/testbed/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe "-SD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8" "-BD:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build" --check-stamp-file "D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp"
+C:\Users\Marut\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8 -BC:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build --check-stamp-file C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/box2d-build/testbed/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -407,107 +407,107 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\testbed\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\draw.cpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\draw.h" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_glfw.cpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_glfw.h" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_opengl3.cpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_opengl3.h" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\main.cpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\settings.h" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\settings.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\test.cpp" />
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\test.h" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\add_pair.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\apply_force.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\body_types.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\box_stack.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\breakable.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\bridge.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\bullet_test.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\cantilever.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\car.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\chain.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\chain_problem.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\character_collision.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\circle_stack.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\collision_filtering.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\collision_processing.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\compound_shapes.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\confined.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\continuous_test.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\convex_hull.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\conveyor_belt.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\distance_joint.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\distance_test.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\dominos.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\dump_loader.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\dynamic_tree.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\edge_shapes.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\edge_test.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\friction.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\gear_joint.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\heavy1.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\heavy2.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\mobile_balanced.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\mobile_unbalanced.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\motor_joint.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\pinball.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\platformer.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\polygon_collision.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\polygon_shapes.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\prismatic_joint.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\pulley_joint.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\pyramid.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\ray_cast.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\restitution.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\revolute_joint.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\rope.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\sensor.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\shape_cast.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\shape_editing.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\skier.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\slider_crank_1.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\slider_crank_2.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\theo_jansen.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\tiles.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\time_of_impact.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\tumbler.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\web.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\wheel_joint.cpp" />
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\wrecking_ball.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\draw.cpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\draw.h" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_glfw.cpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_glfw.h" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_opengl3.cpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\imgui_impl_opengl3.h" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\main.cpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\settings.h" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\settings.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\test.cpp" />
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\test.h" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\add_pair.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\apply_force.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\body_types.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\box_stack.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\breakable.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\bridge.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\bullet_test.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\cantilever.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\car.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\chain.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\chain_problem.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\character_collision.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\circle_stack.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\collision_filtering.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\collision_processing.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\compound_shapes.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\confined.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\continuous_test.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\convex_hull.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\conveyor_belt.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\distance_joint.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\distance_test.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\dominos.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\dump_loader.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\dynamic_tree.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\edge_shapes.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\edge_test.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\friction.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\gear_joint.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\heavy1.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\heavy2.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\mobile_balanced.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\mobile_unbalanced.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\motor_joint.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\pinball.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\platformer.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\polygon_collision.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\polygon_shapes.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\prismatic_joint.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\pulley_joint.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\pyramid.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\ray_cast.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\restitution.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\revolute_joint.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\rope.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\sensor.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\shape_cast.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\shape_editing.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\skier.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\slider_crank_1.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\slider_crank_2.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\theo_jansen.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\tiles.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\time_of_impact.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\tumbler.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\web.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\wheel_joint.cpp" />
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\testbed\tests\wrecking_ball.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
-      <Project>{B201F44C-776D-3AB9-848C-BDFFE447CA32}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\ZERO_CHECK.vcxproj">
+      <Project>{57A38A60-2654-3028-B350-400A94BB4CAD}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\src\box2d.vcxproj">
-      <Project>{871AEE4D-5482-38F2-BA4E-692BB5B45722}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\src\box2d.vcxproj">
+      <Project>{AE2306E4-4887-362A-AFE5-1A0DCA368118}</Project>
       <Name>box2d</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
-      <Project>{B480E7A7-76B5-38AA-ABEA-4FD1DBDDCB67}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
+      <Project>{40F390D5-2778-3BFE-9F2E-B176FFEDDC91}</Project>
       <Name>glad</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
-      <Project>{D7CAF280-98B4-3274-BBE4-B3A4E47B4397}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
+      <Project>{74714B77-C77A-31DA-8FE4-A06648AFDA6E}</Project>
       <Name>glfw</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
-      <Project>{FC5949BB-3261-33BC-BC36-BAA148331DCB}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
+      <Project>{9E4D1AFE-8AC1-32B0-872E-A1FE12F4F761}</Project>
       <Name>imgui</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
-      <Project>{8988AEB0-A2D8-30B1-8133-FD72571C802C}</Project>
+    <ProjectReference Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
+      <Project>{F90A5919-BDA2-3AA8-AEF5-6CB43A866EED}</Project>
       <Name>sajson</Name>
     </ProjectReference>
   </ItemGroup>

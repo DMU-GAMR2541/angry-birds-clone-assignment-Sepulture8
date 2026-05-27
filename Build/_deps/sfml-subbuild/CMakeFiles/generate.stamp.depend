@@ -1,8 +1,9 @@
 # CMake generation dependency list for this directory.
-C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/CMakeFiles/4.3.2/CMakeSystem.cmake
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/CMakeLists.txt
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake
-C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeSystem.cmake.in
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/ExternalProject.cmake
@@ -17,6 +18,3 @@ C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/s
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/Platform/Windows.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/CMakeFiles/4.3.2/CMakeSystem.cmake
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/CMakeLists.txt
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake

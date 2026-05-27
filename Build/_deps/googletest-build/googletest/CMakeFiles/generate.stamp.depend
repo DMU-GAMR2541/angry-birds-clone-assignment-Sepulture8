@@ -1,4 +1,9 @@
 # CMake generation dependency list for this directory.
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/CMakeLists.txt
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/Config.cmake.in
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/gtest.pc.in
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/gtest_main.pc.in
+C:/AngryBirdsWokr/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/internal_utils.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
@@ -11,8 +16,3 @@ C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/s
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake
 C:/Users/Marut/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/CMakeLists.txt
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/Config.cmake.in
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/gtest.pc.in
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/gtest_main.pc.in
-D:/AngrYBird (3)/AngrYBird/angry-birds-clone-assignment-Sepulture8/Build/_deps/googletest-src/googletest/cmake/internal_utils.cmake

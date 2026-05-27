@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\src\gl.c">
+    <ClCompile Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\src\gl.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\glad\gl.h">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\glad\gl.h">
       <Filter>include\glad</Filter>
     </ClInclude>
-    <ClInclude Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\KHR\khrplatform.h">
+    <ClInclude Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\include\KHR\khrplatform.h">
       <Filter>include\KHR</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\CMakeLists.txt" />
+    <CustomBuild Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-src\extern\glad\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{34EB8C79-CCDC-35B7-A2E8-880309148E67}</UniqueIdentifier>
+      <UniqueIdentifier>{082CD35D-B24A-3E0E-ABAE-8AC89D9307F3}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\KHR">
-      <UniqueIdentifier>{74BA8DAB-215C-3FAD-8978-016ECD4B6134}</UniqueIdentifier>
+      <UniqueIdentifier>{AE2ABD3A-183B-36DC-9867-102F07CBDD20}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\glad">
-      <UniqueIdentifier>{49788897-602D-3025-9358-5610285EEB5D}</UniqueIdentifier>
+      <UniqueIdentifier>{3950A87B-7641-37E7-B6C3-D8ABF441B8C2}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{DDA49E0A-7187-3FB5-90D7-1E161B656E80}</UniqueIdentifier>
+      <UniqueIdentifier>{0A603CB6-3526-3A15-9479-DB17E30653D2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

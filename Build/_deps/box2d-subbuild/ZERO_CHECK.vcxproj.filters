@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\AngrYBird (3)\AngrYBird\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-subbuild\CMakeFiles\42d17fbfa98b3cdd6596a76db3e40e6c\generate.stamp.rule">
+    <CustomBuild Include="C:\AngryBirdsWokr\angry-birds-clone-assignment-Sepulture8\Build\_deps\box2d-subbuild\CMakeFiles\5e039f06a91895a415ce93a1a0507a85\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A81DA624-3905-3356-A699-9341C1DE38B5}</UniqueIdentifier>
+      <UniqueIdentifier>{E36200A4-2A2F-30FB-B0EB-C6E2825986E8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
