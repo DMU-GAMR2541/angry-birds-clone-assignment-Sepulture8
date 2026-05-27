@@ -171,7 +171,37 @@ TEST_F(BirdTest, BirdMovesAcrossDifferentLaunchPositions)
         EXPECT_NE(bird->getBody()->GetLinearVelocity().Length(), 0.0f);
     }
 }
+TEST(RelativePositioning, PigsAreCorrectlySpaced)
+{
+    b2World world(b2Vec2(0.0f, 9.8f));
 
+    std::vector<std::shared_ptr<Pig>> pigs;
+
+    for (int i = 0; i < 4; i++)
+    {
+        pigs.push_back(std::make_shared<Pig>(
+            world,
+            300.0f + (i * 50.0f),
+            400.0f,
+            15.0f,
+            10.0f,
+            "",   
+            DynamicObject::DynamicObjectType::pig
+        ));
+    }
+
+  
+    world.Step(1.0f / 60.0f, 8, 3);
+
+    EXPECT_LT(pigs[0]->getBody()->GetPosition().x,
+        pigs[1]->getBody()->GetPosition().x);
+
+    EXPECT_LT(pigs[1]->getBody()->GetPosition().x,
+        pigs[2]->getBody()->GetPosition().x);
+
+    EXPECT_LT(pigs[2]->getBody()->GetPosition().x,
+        pigs[3]->getBody()->GetPosition().x);
+}
 
 
 
