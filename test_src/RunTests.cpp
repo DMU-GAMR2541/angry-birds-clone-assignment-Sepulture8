@@ -51,6 +51,12 @@ protected:
     std::unique_ptr<b2World> world;
     std::unique_ptr<Bird> bird;
 
+    void TearDown() override
+    {
+        bird.reset();
+        world.reset();
+    }
+
     void SetUp() override
     {
         world = std::make_unique<b2World>(b2Vec2(0.0f, 9.8f));
@@ -138,6 +144,10 @@ TEST_F(BirdTest, BirdMovesAfterLaunch)
     EXPECT_NE(bird->getBody()->GetLinearVelocity().Length(), 0.0f);
 }
 
+TEST_F(BirdTest, BirdBodyCreatedSuccessfully)
+{
+    EXPECT_NE(bird->getBody(), nullptr);
+}
 
 // BIRD MOVEMENT TEST (SPREAD OF VALUES)
 
